@@ -1,7 +1,12 @@
 
-fitxerslist = ["dades_usuari.txt", "Practica6.1 optativa" ]
+fitxerslist = ["dades_usuari.txt" ]
 
-with open('fitxercontatenació.txt', 'w') as fitxer:
+with open('fitxercontatenació.txt', 'w') as fitxerAEscriure:
+ 
+  for fitxerOfList in fitxerslist:
+    with open(fitxerOfList) as fitxerObert:
+      fitxerAEscriure.write(fitxerObert.read())
 
- fitxer.write(fitxerslist)
+
+ 
 
