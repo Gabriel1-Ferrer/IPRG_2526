@@ -1,0 +1,4 @@
+import numpy as np
+
+vector = np.array([[10, 20, 30, 40],[1,2,3,4]])
+print(vector)
