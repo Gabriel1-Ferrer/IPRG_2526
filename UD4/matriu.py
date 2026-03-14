@@ -21,5 +21,14 @@ print(temperatures [0,:])
 
 print(temperatures [0,:] [1,:])
 
-print(temperatures [2:0] [3:0] [4:0])
+print(temperatures [2:5,0])
+
+print(temperatures [temperatures < 18] )
+
+print(temperatures[temperatures > 20 ])
+
+print(temperatures [temperatures == 19])
+
+
+
 
